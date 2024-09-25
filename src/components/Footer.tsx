@@ -51,9 +51,9 @@ export function Footer() {
                 <Icon className="w-36 lg:mb-0" name="logo" />
                 <div>
                     <NavigationMenu>
-                        <NavigationMenuList className="cursor-pointer grid grid-cols-2 lg:grid-cols-1 lg:mt-4 lg:flex text-center">
+                        <NavigationMenuList className="grid grid-cols-2 lg:grid-cols-1 lg:mt-4 lg:flex text-center space-x-4">
                             {menuItems.map((item) => (
-                                <NavigationMenuItem key={item.section}>
+                                <NavigationMenuItem className="cursor-pointer" key={item.section}>
                                     <NavigationMenuLink
                                         className={`hover:text-white hover:bg-transparent hover:text-accent text-xl ${navigationMenuTriggerStyle()}`}
                                         onClick={() => scrollToSection(item.section)}

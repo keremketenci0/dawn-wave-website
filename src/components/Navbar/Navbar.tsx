@@ -89,9 +89,9 @@ export function Navbar({ className }: NavbarProps) {
             <div className={`${className} hidden sm:block`} ref={navbarRef}>
                 <div className='flex justify-between'>
                     <NavigationMenu>
-                        <NavigationMenuList className="cursor-pointer">
+                        <NavigationMenuList className="space-x-4">
                             {menuItems.map((item) => (
-                                <NavigationMenuItem key={item.section}>
+                                <NavigationMenuItem className='cursor-pointer' key={item.section}>
                                     <NavigationMenuLink
                                         className={`hover:text-white hover:bg-transparent hover:text-accent text-xl ${navigationMenuTriggerStyle()}`}
                                         onClick={() => scrollToSection(item.section)}
