@@ -9,6 +9,7 @@
     --color-accent: #FB773C;
     --color-highlight: #EB3678;
     --color-highlight-dark: #eb36789d;
+    --color-purple: #956afa;
 
     --color-white: #FFFFFF;
     --color-black: #000000;
@@ -45,6 +46,9 @@
 
   .text-accent {
     color: var(--color-accent);
+  }
+  .text-purple {
+    color: var(--color-purple);
   }
 
   .bg-highlight {

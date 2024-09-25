@@ -74,7 +74,7 @@ export function Footer() {
                         <span className="text-xl text-highlight">{`${t('Domain.text')} `}</span>
                         {` ${t('Copyright.allRightsReserved')}. `}
                         <div className="flex flex-row justify-center">
-                        <LabelAsync text1={`${t('designBy')}`} text3={`${t('studio')}`} text3Class="text-accent" text2={`${t('developedBy')}`} text4="Kerem Ketenci" text4Class="text-accent"/>
+                        <LabelAsync text1={`${t('designBy')}`} text1Class="text-purple" text3={`${t('studio')}`} text3Class="text-accent" text2={`${t('developedBy')}`} text2Class="text-purple" text4="Kerem Ketenci" text4Class="text-accent"/>
                         </div>
                     </p>}
                     {language === 'tr' && <p>
@@ -82,7 +82,7 @@ export function Footer() {
                         <span className="text-xl text-highlight">{`${t('Domain.text')} `}</span>
                         {` ${t('Copyright.allRightsReserved')}. `}
                         <div className="flex flex-row justify-center">
-                        <LabelAsync text1={`${t('studio')}`} text1Class="text-accent" text3={`${t('designBy')}`} text2="Kerem Ketenci" text2Class="text-accent" text4={`${t('developedBy')}`}/>
+                        <LabelAsync text1={`${t('studio')}`} text1Class="text-accent" text3={`${t('designBy')}`} text3Class="text-purple" text2="Kerem Ketenci" text2Class="text-accent" text4={`${t('developedBy')}`} text4Class="text-purple"/>
                         </div>
                     </p>}
                 </div>
