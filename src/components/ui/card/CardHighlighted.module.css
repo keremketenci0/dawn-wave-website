@@ -1,0 +1,47 @@
+.VerticalCardHighlighted {
+  background-image: linear-gradient(163deg, var(--color-highlight) 0%, var(--color-accent) 100%);
+  border-radius: 25px;
+  transition: all .5s;
+  width: 100%;
+  height: 100%;
+}
+
+.VerticalCardHighlighted2 {
+  border-radius: 20px;
+  transition: all .2s;
+  width: 100%;
+  height: 100%;
+}
+
+.VerticalCardHighlighted2:hover {
+  transform: scale(0.99);
+  border-radius: 20px;
+}
+
+.VerticalCardHighlighted:hover {
+  box-shadow: 0 0 30px 3px var(--color-highlight);
+}
+
+.HorizontalCardHighlighted {
+  background-image: linear-gradient(163deg, var(--color-highlight) 0%, var(--color-accent) 100%);
+  border-radius: 25px;
+  transition: all .5s;
+  width: 100%;
+  height: 100%;
+}
+
+.HorizontalCardHighlighted2 {
+  border-radius: 20px;
+  transition: all .2s;
+  width: 100%;
+  height: 100%;
+}
+
+.HorizontalCardHighlighted2:hover {
+  transform: scaleX(0.99) scaleY(0.95);
+  border-radius: 20px;
+}
+
+.HorizontalCardHighlighted:hover {
+  box-shadow: 0 0 30px 3px var(--color-highlight);
+}
