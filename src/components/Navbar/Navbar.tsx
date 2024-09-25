@@ -89,7 +89,7 @@ export function Navbar({ className }: NavbarProps) {
             <div className={`${className} hidden sm:block`} ref={navbarRef}>
                 <div className='flex justify-between'>
                     <NavigationMenu>
-                        <NavigationMenuList className="space-x-4">
+                        <NavigationMenuList className="space-x-8">
                             {menuItems.map((item) => (
                                 <NavigationMenuItem className='cursor-pointer' key={item.section}>
                                     <NavigationMenuLink

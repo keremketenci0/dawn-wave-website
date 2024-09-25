@@ -51,7 +51,7 @@ export function Footer() {
                 <Icon className="w-36 lg:mb-0" name="logo" />
                 <div>
                     <NavigationMenu>
-                        <NavigationMenuList className="grid grid-cols-2 lg:grid-cols-1 lg:mt-4 lg:flex text-center space-x-4">
+                        <NavigationMenuList className="grid grid-cols-2 lg:grid-cols-1 lg:mt-4 lg:flex text-center space-x-8">
                             {menuItems.map((item) => (
                                 <NavigationMenuItem className="cursor-pointer" key={item.section}>
                                     <NavigationMenuLink
