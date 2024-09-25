@@ -86,3 +86,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-highlight-dark);
 }
+
+::selection {
+  background-color: var(--color-slate-800);
+}
