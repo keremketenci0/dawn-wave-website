@@ -98,7 +98,7 @@ export function Subscribe() {
         <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)}>
                 <CardHighlighted
-                    cardType='Horizontal'
+                    cardType='Subscribe'
                     cardClass={`bg-card-background text-white border border-slate-800 flex flex-col p-4`}
                     title={`${t('title')}`} titleClass="text-center text-2xl"
                     description={`${t('description')}`} descriptionClass="text-center text-lg"

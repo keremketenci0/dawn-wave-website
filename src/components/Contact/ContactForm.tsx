@@ -112,7 +112,7 @@ export function ContactForm() {
 
     return (
         <CardHighlighted
-            cardType='Vertical'
+            cardType='Form'
             cardClass={`bg-card-background text-white border border-slate-800`}
             content=
             {

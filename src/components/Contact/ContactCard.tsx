@@ -32,7 +32,7 @@ export function ContactCard() {
 
 
             <CardHighlighted
-            cardType='Horizontal'
+                cardType='Horizontal'
                 cardClass={`bg-card-background text-white border border-slate-800 flex items-center p-4`}
                 icon={<MapPin size={64} />}
                 content={`${t('Card.Content.address')}`}

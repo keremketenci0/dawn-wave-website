@@ -48,7 +48,7 @@ export function JoinUsCarousel({ jobs }: JoinUsCarouselProps) {
                     <CarouselItem key={index}>
                         <div className="p-4">
                             <CardHighlighted
-                                cardType='Vertical'
+                                cardType='JoinUs'
                                 cardClass={`bg-card-background text-white border border-slate-800 items-center p-4`}
                                 title={job.title} titleClass="text-center text-2xl pt-2 px-2"
                                 description={job.description} descriptionClass="flex flex-col items-center px-2"
