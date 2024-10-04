@@ -7,7 +7,7 @@
 
 ## Installation
 ```
-git clone https://github.com/keremketenci0/dawn-wave-website.git
+git clone https://github.com/keremketenci/dawn-wave-website.git
 cd dawn-wave-website
 
 pnpm install
